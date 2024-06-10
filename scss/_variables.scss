@@ -1,0 +1,46 @@
+// _variables.scss
+
+// Color Variables
+$primary-color: #6AD9C5; 
+$secondary-color: #6AA5D9; 
+$tertiary-color: #6AC8D9; 
+$accent-color: #0DE174; 
+$quaternary-color: #6A82D9; 
+$neutral-color: #B2D3D9; 
+
+$text-color: #333; // Dark Text Color
+$background-color: #f8f9fa; // Light Background Color
+
+$error-color: #e74c3c; // Red for errors
+$success-color: #2ecc71; // Green for success
+$warning-color: #f39c12; // Orange for warnings
+
+// Font Variables
+$font-family: 'Arial, sans-serif';
+$heading-font-family: 'Helvetica, sans-serif';
+$base-font-size: 16px;
+$small-font-size: 14px;
+$large-font-size: 18px;
+$heading-font-weight: 600;
+$body-font-weight: 400;
+
+// Spacing Variables
+$base-margin: 16px;
+$small-margin: 8px;
+$large-margin: 24px;
+$base-padding: 16px;
+$small-padding: 8px;
+$large-padding: 24px;
+
+// Border Variables
+$base-border-radius: 4px;
+$large-border-radius: 8px;
+$small-border-radius: 2px;
+$border-width: 1px;
+
+// Transition Variables
+$base-transition: 0.3s ease-in-out;
+
+// Shadow Variables
+$base-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$hover-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);

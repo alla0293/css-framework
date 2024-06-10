@@ -1,0 +1,36 @@
+// main.scss
+
+@import 'variables';
+@import 'reset';
+@import 'typography';
+@import 'buttons';
+@import 'forms';
+@import 'tables';
+@import 'utilities';
+
+// Custom global styles
+body {
+  font-family: $font-family;
+  font-size: $base-font-size;
+  color: $text-color;
+  line-height: 1.6;
+  padding: $base-padding;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $base-padding;
+}
+
+.card {
+  background-color: white;
+  padding: $large-padding;
+  border-radius: $base-border-radius;
+  box-shadow: $base-shadow;
+  transition: box-shadow $base-transition;
+
+  &:hover {
+    box-shadow: $hover-shadow;
+  }
+}

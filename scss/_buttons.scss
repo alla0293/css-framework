@@ -1,0 +1,21 @@
+.btn {
+  @include button-styles($color2, #fff);
+
+  &--secondary {
+    @include button-styles($color4, #fff);
+  }
+
+  &--tertiary {
+    @include button-styles($color5, #fff);
+  }
+
+  &--small {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+  }
+
+  &--large {
+    padding: 15px 30px;
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,28 @@
+// _tables.scss
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: $base-margin;
+  }
+  
+  th, td {
+    border: $border-width solid $neutral-color;
+    padding: $small-padding;
+    text-align: left;
+  }
+  
+  th {
+    background-color: $primary-color;
+    color: white;
+    font-weight: $heading-font-weight;
+  }
+  
+  tr:nth-child(even) {
+    background-color: $background-color;
+  }
+  
+  tr:hover {
+    background-color: $neutral-color;
+  }
+  

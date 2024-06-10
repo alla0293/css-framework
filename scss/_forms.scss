@@ -1,0 +1,56 @@
+// _forms.scss
+
+input, textarea, select {
+    font-family: $font-family;
+    font-size: $base-font-size;
+    border: $border-width solid $neutral-color;
+    padding: $base-padding;
+    margin-bottom: $base-margin;
+    border-radius: $base-border-radius;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color $base-transition;
+  
+    &:focus {
+      border-color: $primary-color;
+      outline: none;
+    }
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: $text-color;
+  }
+  
+  button {
+    @extend .btn;
+  }
+  
+  .form-group {
+    margin-bottom: $base-margin;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + $small-padding * 2);
+    padding: $small-padding $base-padding;
+    font-size: $base-font-size;
+    line-height: 1.5;
+    color: $text-color;
+    background-color: $background-color;
+    background-clip: padding-box;
+    border: $border-width solid $neutral-color;
+    border-radius: $base-border-radius;
+    transition: border-color $base-transition, box-shadow $base-transition;
+  
+    &:focus {
+      color: $text-color;
+      background-color: $background-color;
+      border-color: $primary-color;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba($primary-color, 0.25);
+    }
+  }
+  
